@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(./Gilroy-Light.otf);
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(./Gilroy-ExtraBold.otf);
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy-Light", sans-serif;
+}
+
+.page-wrapper{
+    display: flex;
+    height: 100vh;
+}
+
+.col-left{
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.menu{
+    flex: 3;
+    padding: 2rem 4rem;
+}  
+h1{
+    margin: 0;
+}
+ol{
+    margin: 4rem 0;
+    padding: 0;
+}
+li{}
+a{
+    text-decoration: none;
+    color: rgb(211, 194, 194);                    
+}
+            
+        
+
+    .footer{
+        flex: 2;
+    }
+
+
+
+.col-center{
+    background-color: green;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
