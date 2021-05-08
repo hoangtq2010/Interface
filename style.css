@@ -30,39 +30,123 @@ body{
     color: white;
 }
 .menu{
-    flex: 3;
+    flex: 2;
     padding: 2rem 4rem;
+    overflow: hidden;
 }  
 h1{
     margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 ol{
     margin: 4rem 0;
     padding: 0;
 }
-li{}
+li{
+    font-size: 1rem;
+    margin: 2rem 0;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
 a{
     text-decoration: none;
     color: rgb(211, 194, 194);                    
 }
-            
-        
-
-    .footer{
-        flex: 2;
-    }
-
-
-
-.col-center{
-    background-color: green;
+ 
+.footer{
     flex: 2;
     display: flex;
     flex-direction: column;
+}
+
+.top{
+    font-size: 1.25rem;
+    flex: 0.5;
+    background-color: #4acf22;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bottom{
+    flex: 4;
+    background-image: url(./view.jpg);
+    background-size: cover;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col-center{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem ;
+}
+h2{
+    font-family: "Gilroy-ExtraBold",sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 0;
+    
+}
+span{
+    color: white;
+    text-shadow: -1px -1px 0, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000;
+}
+
+.hero{
+    flex: 3;
+    background-image: url(./robot1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6rem;
 }
 
 .col-right{
     flex: 2;
     display: flex;
     flex-direction: column;
+}
+.hero2{
+    background-image: url(./TrimBot2020.png);
+    background-size: cover;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer1{
+    flex: 2;
 }
