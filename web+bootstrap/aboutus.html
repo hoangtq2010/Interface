@@ -37,15 +37,13 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-8">
+                <div class="col-12 col-sm-6">
                     <h1>Бот Садовод-VSU</h1>
                     <p>Мы вдохновлены марсоходом Perseverance Rover и создали бота-садовника с уникальным опытом слияния.</p> 
                     <p>Наши творения разбудят ваши чувства!</p>
                 </div>
-                <div class="col-12 col-sm">
-                    <div class="col-12 col-sm align-self-center">
-                        <img src="./robot.jpg" class="img-fluid" height="123" width="167">
-                    </div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src="./robot.jpg" class="img-fluid" height="123" width="167">
                 </div>
             </div>
         </div>
@@ -53,6 +51,7 @@
 
     <div class="container">
         <div class="row ">
+            <!--Breadcrumbs-->
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item active">About Us</li>
@@ -95,12 +94,40 @@
         <div class="row row-content">
             <div class="col-12 col-sm col-md col-lg ">
                 <h2>Лидер</h2>
-                <h3>Коровченко Игорь Сергеевич<small>   Кафедра электроники – доцент</small></h3>
-                <p class="d-none d-sm-block">Он - тот, кто сформировал эту группу, помогая нам строить и реализовывать проекты с целью обеспечить лучшее будущее для общества. Его первое вдохновение для создания роботов, он привносит свою страсть в Бот Садовод-ВГУ, являясь пионером в соединении науки и технологий со студентами.</p>
-                <h3>Дмитрий Нестеренко <small>  технические специалисты</small></h3>
-                <p class="d-none d-sm-block">Его задача - спроектировать, собрать и усовершенствовать роботов. Со страстью к технологиям и под руководством Коровченко Игорь Сергеевич добился определенных успехов.!</em></p>
-                <h3>Kхонг Минь Хоанг <small>веб-разработчик</small></h3>
-                <p class="d-none d-sm-block">Отвечает за разработку веб-интерфейса. Мы гарантируем, что каждый робот, который мы разрабатываем, будет максимально полным и отвечающим предпочтениям каждого.</em></p>
+                
+            <!--Tabs, Pills and Tabbed Navigation-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#korochenko"
+                        role="tab" data-toggle="tab">Коровченко И.С.</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#nesterenko" role="tab"
+                        data-toggle="tab">Дмитрий Нестеренко</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#hoang"role="tab"
+                        data-toggle="tab">Хоанг K.М</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="korochenko">
+                        <h3>Коровченко Игорь Сергеевич<small>   Кафедра электроники – доцент</small></h3>
+                        <p class="d-none d-sm-block">Он - тот, кто сформировал эту группу, помогая нам строить и реализовывать проекты с целью обеспечить лучшее будущее для общества. Его первое вдохновение для создания роботов, он привносит свою страсть в Бот Садовод-ВГУ, являясь пионером в соединении науки и технологий со студентами.</p>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane fade show active" id="nesterenko">
+                        <h3>Дмитрий Нестеренко <small>  технические специалисты</small></h3>
+                        <p class="d-none d-sm-block">Его задача - спроектировать, собрать и усовершенствовать роботов. Со страстью к технологиям и под руководством Коровченко Игорь Сергеевич добился определенных успехов.!</em></p>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane fade show active" id="hoang">
+                        <h3>Kхонг Минь Хоанг <small>веб-разработчик</small></h3>
+                        <p class="d-none d-sm-block">Отвечает за разработку веб-интерфейса. Мы гарантируем, что каждый робот, который мы разрабатываем, будет максимально полным и отвечающим предпочтениям каждого.</em></p>
+                    </div>
+                    
+                </div>
             </div>
        </div>
 
