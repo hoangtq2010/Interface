@@ -105,6 +105,57 @@
     </header>
 
     <div class="container">
+        <!--Carousel-->
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <!--Adding Carousel Content-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="./carousel-1.jpg" alt="carousel-1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Новый продукт<span class="badge badge-pill badge-danger">HOT</span></h2>
+                                <p>Автоматическая газонокосилка с новым продуктом под названием «Садовод-ВСУ» </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img class="d-block img-fluid" src="./carousel-3.jpg" alt="carousel-3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Работа</h2>
+                                <p>Садовод-ВСУ перемещается по полю в системе, объединяющей несколько таймеров, датчиков и контроллеров. Этот робот обладает высокоэффективной батареей в течение длительного времени, и когда батарея разряжается, он автоматически возвращается в док-станцию ​​для зарядки батареи, без вмешательства пользователя. Кошение газона также можно запрограммировать на автоматическое выполнение.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img class="d-block img-fluid" src="./carousel-2.jpg" alt="carousel-2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Приложения<span class="badge badge-pill badge-success">Success</span></h2>
+                                <p>Машина будет резать по разным траекториям, чтобы снизить нагрузку на сад пользователя, увеличить рост травы и уменьшить количество водорослей и сорняков. В отличие от обычных машинок для стрижки, пользователю не нужно собирать мертвые сорняки после того, как они срезаны, потому что они слишком малы и рассыпаются по корневой системе сада. Именно эти крошечные травы вскоре станут источником органических удобрений для улучшения качества травы.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Add Controls-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1" ></li>
+                        <li data-target="#mycarousel" data-slide-to="2" ></li>
+                    </ol>
+                    
+                    <!--Manually scroll(1 vai dieu khien de cho phep cuon thu cong)-->
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-3 order-sm-first col-md-3">
                 <!--Alerting Users(badge)-->
@@ -195,14 +246,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    
-    <!--tags for the script(ma gioi thieu vao trang nay)-->
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
